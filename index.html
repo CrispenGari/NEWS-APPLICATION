@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        JQUERY AND BOOTSTAP CDN'S
+    -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<style>
+    .jumbotron{
+    background: rgb(17, 17, 27);
+    color: white;
+    }
+    li{
+        font-weight: normal;
+    }
+    .media{
+        margin: 10px;
+    }
+    img{
+        width: 20%;
+    }
+</style>
+<body>
+    <script>
+        var socket =io();
+    </script>
+    <div class="jumbotron jumbotron-fluid">
+         <div class="container">
+          <h1 class="display-5">STRAWBERRY NEWS</h1>
+          <p class="lead">This is a new's site created by Crispen Gari for development purposes</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Court doesn’t believe VBS 
+                  accused can’t afford R100K bail each - The Citizen</h5>
+                   <span class="badge badge-dark">2020-06-18T14:29:29Z</span></h5>
+              Magistrate Brian Nemavhidi accused the alleged looters of VBS of trying to 'stretch the hand of the court' by 
+              claiming that they were poor or unemployed and couldn't afford the R100k bail
+              <footer class="blockquote-footer">Bernadette Wicks
+                <cite title="Source Title">Uknown Source</cite>
+            </div>
+            <img class="d-flex ml-3" src="https://citizen.co.za/wp-content/uploads/2020/06/Screenshot-2020-06-18-at-13.01.49-320x213.png" alt="Generic placeholder image">
+    
+        </div>
+        <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Sasol unveils new business structure,
+                   takes a step back from oil investment -
+                    News24  <span class="badge badge-dark">2020-06-18T15:19:37Z</span>
+                    <ul><li>The energy and chemical company has unveiled an organisational overhaul.  </li><li>Unions have been served with consultation letters over possible impact on jobs.</li><li>The group has been u… [+3304 chars]
+                    <footer class="blockquote-footer">Sibongile Khumalo
+                <cite title="Source Title">|| News24</cite>
+            </div>
+            <img class="d-flex ml-3" src="https://cdn.24.co.za/files/Cms/General/d/2986/47ad598ee0b54e448aa2eb0d776638dd.jpg" alt="Generic placeholder image">
+    
+        </div>
+        <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">
+                EFF and ANC 'welcome VBS arrests' - SowetanLIVE</h5>
+                <span class="badge badge-dark">2020-06-18T15:19:37Z</span>
+                Although leaders from both parties have been implicated in the VBS looting, spokespeople insisted that they welcomed the recent arrests and encouraged the law to take its course.
+              <footer class="blockquote-footer">
+                ZINGISA MVUMVU
+                <cite title="Source Title"> || SowetanLIVE</cite>
+            </div>
+            <img class="d-flex ml-3" src="https://lh3.googleusercontent.com/Ugjvo0Os6-p_dAO_Sq2qOTs6gOiKLNKs8KFJd_ngftmLYN0zgxDS39SuUK4T9lAIpJI1tp0_hFrFY1VFQZOW8g=s1000" alt="Generic placeholder image">
+    
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5">STRAWBERRY NEWS</h1>
+          <p class="lead">This is a new's site created by Crispen Gari for development purposes</p>
+        </div>
+    <script src="client.js"></script>
+</body>
+</html>
