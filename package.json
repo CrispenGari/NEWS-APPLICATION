@@ -9,7 +9,7 @@
   "author": "Crispen Gari",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "newsapi": "^2.4.0",
     "nodemon": "^2.0.4",
     "socket.io": "^2.3.0"
